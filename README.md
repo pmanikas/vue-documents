@@ -1,52 +1,63 @@
 # Vue Documents
+
 This is a clone of Google Docs using Vue.js, Node.js, Sockets and Quill.
 
 ## Client Side
+
 Client is using `Vue.js`, `sockets.io-client` and `quill`
 
-### Installation
+### Client Installation
 
 #### Enter client folder
-``` bash
+
+```bash
 cd client
 ```
 
 #### Install dependencies
-``` bash
+
+```bash
 yarn install
 ```
 
 #### Compile and hot-reload for development
-``` bash
+
+```bash
 yarn serve
 ```
 
 #### Compile and minify for production
-``` bash
+
+```bash
 yarn build
 ```
 
 #### Lint and fix files
-``` bash
+
+```bash
 yarn lint
 ```
 
 ## Server Side
+
 Server is using `Node.js`, `sockets.io` and `mongo db (mongoose)`
 
-### Installation
+### Server Installation
 
 #### Enter server folder
-``` bash
+
+```bash
 cd server
 ```
 
 #### Install server dependencies
-``` bash
+
+```bash
 yarn install
 ```
 
 #### Serve and hot-reload for development
-``` bash
+
+```bash
 yarn install
 ```
