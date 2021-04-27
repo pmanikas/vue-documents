@@ -1,0 +1,14 @@
+// Color names acquired by https://chir.ag/projects/name-that-color
+
+// Main Colors
+$c-white: #ffffff;
+$c-athens-grey: #F8F9FA;
+$c-iron-grey: #DADCE0;
+$c-black: #000;
+
+// Transparents
+$c-transparent-black: transparentize($c-black, 0.5);
+
+// Base Elements
+$c-base-shadow: $c-transparent-black;
+$c-border: $c-iron-grey;

@@ -1,17 +1,27 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-import MainEditor from '../views/MainEditor.vue'
+import Vue from "vue";
+import VueRouter from "vue-router";
+import TextEditor from "./../views/TextEditor.vue";
+import { v4 as uuidV4 } from "uuid";
+
+Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    name: 'MainEditor',
-    component: MainEditor
-  }
-]
+    path: "/",
+    redirect: {
+      name: "TextEditor",
+      params: { id: uuidV4() },
+    },
+  },
+  {
+    path: "/document/:id",
+    name: "TextEditor",
+    component: TextEditor,
+  },
+];
 
-const router = createRouter({
-  history: createWebHashHistory(),
-  routes
-})
+const router = new VueRouter({
+  routes,
+});
 
-export default router
+export default router;

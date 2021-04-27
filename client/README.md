@@ -1,4 +1,4 @@
-# vue-document
+# gdocs-clone
 
 ## Project setup
 ```
