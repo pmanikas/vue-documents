@@ -1,6 +1,6 @@
 # Vue Documents
 
-This is a clone of Google Docs using Vue.js, Node.js, Sockets and Quill.
+This is a clone of Google Docs using Vue.js, Node.js, Sockets and Quill. You can collaboratively compose a document with anyone else having access to the same document url.
 
 ## Client Side
 
@@ -61,3 +61,8 @@ yarn install
 ```bash
 yarn install
 ```
+
+## Future Features
+
+- Add to homepage a list of documents user had worked on (local storage and later on, server-side).
+- Implement Authentication and doc access per user permissions.
